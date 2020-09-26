@@ -1,0 +1,7 @@
+-e git://github.com/ProfFan/sphinxcontrib-proof.git#egg=sphinxcontrib-proof
+sphinx-book-theme
+myst-nb
+sphinx-copybutton
+sphinx-togglebutton
+sphinxcontrib-bibtex
+sphinx-thebe

@@ -1,0 +1,9 @@
+*.doctree
+*.pickle
+_build/
+*vscode*
+.history/
+*pyc
+.ipynb_checkpoints
+CITATION.rst
+CODE_OF_CONDUCT.rst
