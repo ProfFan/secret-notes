@@ -79,6 +79,8 @@ html_static_path = ['_static']
 # -- Options for LaTeX output -------------------------------------------------
 # inside conf.py
 latex_engine = 'pdflatex'
+latex_logo = '_static/logo.png'
+
 latex_elements = {
     'fontpkg': r'''
 ''',
@@ -92,4 +94,5 @@ latex_elements = {
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
 }
+
 latex_show_urls = 'footnote'

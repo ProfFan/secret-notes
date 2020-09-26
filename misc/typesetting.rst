@@ -36,3 +36,34 @@ And here are others, without any label, or without title.
    This is a dummy conjecture to illustrate that one can use math in theorem titles.
 
    Note that math typesetting is lost when referencing the theorem: :ref:`gammastar`.
+
+Code Blocks
+-------------------------------------
+
+Swift code?
+
+.. code-block:: swift
+   :linenos:
+   
+   func someFunctionWithNonescapingClosure(closure: () -> Void) {
+      closure()
+   }
+
+   class SomeClass {
+      var x = 10
+      func doSomething() {
+         someFunctionWithEscapingClosure { self.x = 100 }
+         someFunctionWithNonescapingClosure { x = 200 }
+      }
+   }
+
+   let instance = SomeClass()
+   instance.doSomething()
+   print(instance.x)
+   // Prints "200"
+
+   completionHandlers.first?()
+   print(instance.x)
+   // Prints "100"
+
+Does it work?

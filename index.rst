@@ -10,10 +10,9 @@ Welcome to Random Fantasies's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   introduction
    math/svd
    misc/typesetting
-
-
 
 
 Indices and tables
