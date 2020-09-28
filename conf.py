@@ -45,7 +45,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md']
 
 # -- Options for typesetting -------------------------------------------------
 
@@ -66,9 +66,11 @@ html_theme_options = {
     "use_repository_button": True,
 }
 
+myst_amsmath_enable=True
 myst_admonition_enable = True
 myst_deflist_enable = True
 myst_url_schemes = ("http", "https", "mailto")
+jupyter_execute_notebooks = "off"
 panels_add_bootstrap_css = False
 
 # Add any paths that contain custom static files (such as style sheets) here,

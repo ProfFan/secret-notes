@@ -1,4 +1,4 @@
-Singular Value Decomposition
+Test
 ============================
 
 This is also very hard.
@@ -18,6 +18,11 @@ This is also very hard.
 .. proof:theorem:: Pythagorean theorem
 
    In a :ref:`righttriangle`, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+   
+   :math:`\Lambda`
+      .. math::
+         \color{red}{x^2}+y^2=3
+         :label: eq_c
 
 .. _pyth_proof:
 
