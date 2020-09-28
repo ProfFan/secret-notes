@@ -31,3 +31,8 @@ This is also very hard.
    The proof is left to the reader.
 
 You can label and reference definition and theorems (e.g. :numref:`theorem {number} <pythagorean>`). You can also reference proofs (see the :ref:`proof of the Pythagorean theorem <pyth_proof>`).
+
+Math Reference to a Jupyter Notebook?
+-------------------------------------
+
+Let's refer to the SVD equation :numref:`svd_def`.
