@@ -12,6 +12,7 @@ Welcome to Random Fantasies's documentation!
 
    introduction
    math/svd
+   math/pseudoinverse
    math/test
    misc/typesetting
 
